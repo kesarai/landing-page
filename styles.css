@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.topheader {
+    display: flex;
+}

@@ -95,3 +95,31 @@ button {
 .random {
     border-radius: 10px;
 }
+
+.quotesection {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quotecontent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px ;
+    margin-bottom: 60px;
+    width: 650px;
+    
+}
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+.author {
+    align-self: flex-end;
+    padding-right: 25px;
+    font-weight: 900;
+    color: #1F2937;
+    font-size: 20px;
+
+}

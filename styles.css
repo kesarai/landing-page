@@ -1,11 +1,19 @@
 html{
     margin: 0;
     padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 body {
-    margin: auto;
-    overflow: hidden;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
 }
 
 .header {
@@ -44,8 +52,14 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 40px;
-    
+    flex-wrap: wrap;
 }
+
+.imgheader {
+width: 300px;
+height: auto;
+}
+
 .headertext {
     display: flex;
     flex-direction: column;
@@ -85,6 +99,7 @@ button {
 .randomimages {
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .imgandtext {
@@ -92,6 +107,7 @@ button {
     flex-direction: column;
     gap:20px;
     width: 200px;
+    
 }
 .random {
     border-radius: 10px;

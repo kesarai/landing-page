@@ -1,10 +1,11 @@
-body {
-    height: 100vh;
+html{
     margin: 0;
+    padding: 0;
+}
+body {
+    margin: auto;
     overflow: hidden;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-    display: flex;
-    flex-direction: column;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .header {
@@ -122,4 +123,37 @@ button {
     color: #1F2937;
     font-size: 20px;
 
+}
+.propaganda {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.prop {
+    display: flex;
+    width: 700px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    justify-content: space-around;
+    color: #e5e7eb;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.propbutton{
+    border: 2px solid #f9faf8;
+}
+.call{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #e5e7eb;
 }
